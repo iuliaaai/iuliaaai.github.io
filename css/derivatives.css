@@ -1,0 +1,20 @@
+.derivative-list {
+    list-style-type: disc; 
+    padding-left: 40px;
+    margin: 20px auto;
+    max-width: 70%;
+}
+
+.derivative-list li {
+    position: relative;
+    font-size: 1.2em;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.derivative-list li strong {
+    font-weight: bold;
+    color: #83d1e5;
+}

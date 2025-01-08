@@ -1,0 +1,41 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: url('../images/buildings.jpg') no-repeat center center/cover;
+    color: #f7f4f4;
+    padding: 50px 10px;
+    height: 600px;
+}
+
+.hero h1, .hero p {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+#definition {
+    font-size: 1.2em;
+}
+
+#definition h2 {
+    font-size: 2.5em;
+    color: #0e1424;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #b7cde7;
+    display: inline-block;
+}
+
+#definition p {
+    margin-bottom: 15px;
+}

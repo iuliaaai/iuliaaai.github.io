@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perspective</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/sections.css">
+    <link rel="stylesheet" href="css/details.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/derivatives.css">
+    <link rel="stylesheet" href="css/opinions.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="sticky-header">
+        <div class="logo">
+            <img src="/images/pers-horizontal.jpg" alt="Perspective Logo">
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#home" data-word="Home">Home</a></li>
+                <li><a href="#meaning" data-word="Meaning">Meanings</a></li>
+                <li><a href="#derivatives" data-word="Derivatives">Derivatives</a></li>
+                <li><a href="#opinions" data-word="Opinions">Opinions</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h1>Exploring Perspectives</h1>
+        <p>See the world through different lenses, and uncover new dimensions of thought and creativity.</p>
+    </section>
+
+    <!-- Definition Section -->
+    <section id="definition" class="context-section">
+        <h2>What is Perspective?</h2>
+        <p>
+            Perspective is a way of looking at things. It shapes how we view the world,
+            influences our understanding of concepts, and impacts the way we make decisions.
+        </p>
+        <p>
+            By altering our perspective, we can gain new insights and broaden our understanding.
+        </p>
+    </section>
+
+    <!-- Main Sections -->
+    <main>
+        <!-- Specific Context Section -->
+        <section id="meaning" class="context-section">
+            <h2>Other meanings of the word</h2>
+            <div class="cards">
+                <div class="card" data-type="Art">
+                    <i class="fas fa-palette card-icon"></i>
+                    <h3> Art</h3>
+                </div>
+                <div class="card" data-type="Psychology">
+                    <i class="fas fa-brain card-icon"></i>
+                    <h3> Psychology</h3>
+                </div>
+                <div class="card" data-type="Philosophy">
+                    <i class="fas fa-book-open card-icon"></i>
+                    <h3> Philosophy</h3>
+                </div>
+                <div class="card" data-type="Science">
+                    <i class="fas fa-flask card-icon"></i>
+                    <h3> Science</h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dynamic Details Section -->
+        <section id="details" class="context-section-dynamic hidden">
+            <div class="details-content">
+                <img id="details-image" src="/images/pers-horizontal.jpg" alt="Details Image">
+                <div class="details-text">
+                    <h2 id="details-title"> Heading</h2>
+                    <p id="details-content"> </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hidden Content Sections -->
+
+        <div id="content-Art" class="content-detail" style="display:none;">
+            <ul>
+                <li><strong>Linear Perspective:</strong> Involves creating the illusion of depth by using converging lines that meet at a vanishing point on the horizon. The farther an object is, the smaller it appears.</li>
+                <li><strong>Atmospheric (Aerial) Perspective:</strong> This technique creates depth by changing the color and clarity of objects as they recede into the distance, making distant objects appear lighter and less distinct.</li>
+                <li><strong>Isometric Perspective:</strong> A method of drawing in which all three dimensions of an object are represented equally without distortion, often used in technical or architectural drawings.</li>
+            </ul>
+        </div>
+
+        <div id="content-Psychology" class="content-detail" style="display:none;">
+            <ul>
+                <li><strong>Cognitive Perspective:</strong> Refers to how people think about and interpret events, situations, and other people. This can include biases, judgments, and mental frameworks that shape one's worldview.</li>
+                <li><strong>Social Perspective:</strong> Refers to the ability to understand and interpret the viewpoints of others, essential in empathy and social interactions.</li>
+                <li><strong>Developmental Perspective:</strong> As people age, their understanding and interpretations of the world change, shifting their psychological perspective through stages in cognitive or moral development.</li>
+            </ul>
+        </div>
+
+        <div id="content-Philosophy" class="content-detail" style="display:none;">
+            <ul>
+                <li><strong>Relativism:</strong> The idea that truth, knowledge, or morality can vary depending on the perspective of the observer. Different cultures or individuals may have different perspectives on what is true or ethical.</li>
+                <li><strong>Epistemology:</strong> The study of knowledge, where perspective plays a role in understanding how people come to know things, and how subjective viewpoints influence their perception of truth.</li>
+                <li><strong>Phenomenology:</strong> A philosophical approach that focuses on individual experience and perception. In phenomenology, perspective is crucial to understanding how reality is constructed through personal experience.</li>
+            </ul>
+        </div>
+
+        <div id="content-Science" class="content-detail" style="display:none;">
+            <ul>
+                <li><strong>Physical (Optical) Perspective:</strong> Refers to the way light travels and how objects appear from different angles. In fields like physics, perspective may be used to understand how light or other forces interact with objects at various distances or angles.</li>
+                <li><strong>Evolutionary Perspective:</strong> In biology, this might refer to how organisms or behaviors can be understood in the context of evolutionary history. Evolutionary theory provides a lens through which we view the development of species over time.</li>
+                <li><strong>Perspective in Systems Theory:</strong> In fields like ecology or systems science, perspective refers to looking at systems from different viewpoints. This could mean considering various levels of analysis, from individual organisms to ecosystems, or from molecular to global scales.</li>
+                <li><strong>Scientific Paradigms:</strong> In the philosophy of science, Thomas Kuhn's concept of paradigms includes perspective as a way of seeing and understanding scientific phenomena. A scientific revolution often involves shifting perspective, where old models or frameworks are replaced by new ways of thinking.</li>
+            </ul>
+        </div>
+
+        <!-- Derivative Forms Section -->
+        <section id="derivatives" class="context-section">
+            <h2>Derivative Forms</h2>
+            <ul class="derivative-list">
+                <li><strong>Perspectivism:</strong> A philosophical concept suggesting that knowledge or perception is always from a specific perspective.</li>
+                <li><strong>Perspectivity:</strong> Refers to the quality or state of being perspectival, often used in geometry or vision-related contexts.</li>
+                <li><strong>Perspectival:</strong> Relating to or marked by perspective, often used in art or philosophical contexts.</li>
+            </ul>
+        </section>        
+
+        <div class="image-container">
+            <img src="/images/persp.jpg" alt="Perspective Image">
+        </div>
+
+        <!-- Opinions Section -->
+        <section id="opinions" class="context-section">
+            <h2>Perspectives from others</h2>
+            <div class="opinions-carousel">
+                <div class="opinion-card">
+                    <div class="opinion-card-inner">
+                        <div class="opinion-card-front">
+                            <p>Opinion 1</p>
+                            <span>- My sister</span>
+                        </div>
+                        <div class="opinion-card-back">
+                            <p>It’s the ability to look at something from different angles and discover new meanings or solutions.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="opinion-card">
+                    <div class="opinion-card-inner">
+                        <div class="opinion-card-front">
+                            <p>Opinion 2</p>
+                            <span>- A friend</span>
+                        </div>
+                        <div class="opinion-card-back">
+                            <p>Perspective is what turns the same situation into a problem for one person and an opportunity for another.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="opinion-card">
+                    <div class="opinion-card-inner">
+                        <div class="opinion-card-front">
+                            <p>Opinion 3</p>
+                            <span>- Another friend</span>
+                        </div>
+                        <div class="opinion-card-back">
+                            <p>Everything is about perspective of things. Something might be clear for you but others may see it differently.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="opinion-card">
+                    <div class="opinion-card-inner">
+                        <div class="opinion-card-front">
+                            <p>Opinion 4</p>
+                            <span>- Me</span>
+                        </div>
+                        <div class="opinion-card-back">
+                            <p>It's the way you choose to see the world and the key to understand others.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <!-- Footer Section -->
+    <footer id="contact">
+        <p>&copy; 2025 Perspective Exploration. All rights reserved.</p>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#meaning">Meaning</a>
+            <a href="#derivatives">Derivatives</a>
+            <a href="#opinions">Opinions</a>
+        </nav>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

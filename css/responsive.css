@@ -1,0 +1,17 @@
+@media (max-width: 768px) {
+    body {
+        font-size: 90%;
+    }
+    .context-section {
+        padding: 10px 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 80%;
+    }
+    .context-section {
+        padding: 5px;
+    }
+}

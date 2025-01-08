@@ -1,0 +1,85 @@
+header.sticky-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: #c6fbfb;
+  box-shadow: 0 2px 5px rgba(205, 15, 15, 0.1);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+header .logo img {
+  height: 35px;
+  width: auto;
+  background-color: #b4ebda;
+}
+
+@media (max-width: 768px) {
+  header.nav ul {
+      flex-direction: column;
+  }
+
+  header .logo img {
+      height: 30px;
+  }
+
+  header nav ul li {
+      margin: 5px 0;
+  }
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+header nav ul li {
+  margin: 0 10px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #333;
+  text-transform: uppercase;
+}
+
+@keyframes flipText {
+  0% {
+      transform: rotateX(0deg);
+      color: #333;
+  }
+  100% {
+      transform: rotateX(180deg);
+      color: #347c8c;
+  }
+}
+
+@keyframes flipBack {
+  0% {
+      transform: rotateX(180deg);
+      color: #347c8c;
+  }
+  100% {
+      transform: rotateX(0deg);
+      color: #333;
+  }
+}
+
+.nav-flip {
+  animation: flipText 1s forwards;
+  display: inline-block;
+}
+
+.flip-back {
+  animation: flipBack 1s forwards;
+  display: inline-block;
+}
+
+
