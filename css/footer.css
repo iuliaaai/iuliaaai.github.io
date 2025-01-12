@@ -1,6 +1,6 @@
 footer {
     background: #45a4ba;
-    color: #fff;
+    color: #040000;
     padding: 10px 20px;
     text-align: center;
 }
@@ -11,7 +11,7 @@ footer nav {
 
 footer nav a {
     text-decoration: none;
-    color: #fff;
+    color: #040000;
     margin: 0 10px;
     font-size: 0.9em;
 }

@@ -5,13 +5,21 @@
     justify-content: center;
     text-align: center;
     background: url('../images/buildings.jpg') no-repeat center center/cover;
-    color: #f7f4f4;
+    color: #ffffff;
     padding: 50px 10px;
     height: 600px;
 }
 
 .hero h1, .hero p {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.highlighted-text {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    line-height: 1.2;
 }
 
 .hero h1 {
