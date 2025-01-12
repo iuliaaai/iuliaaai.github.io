@@ -10,8 +10,8 @@
 
 .opinion-card {
     width: calc(33.33% - 30px);
-    min-width: 380px;
-    max-width: 500px;
+    min-width: 260px;
+    max-width: 400px;
     height: 200px;
     position: relative;
     cursor: pointer;

@@ -82,4 +82,67 @@ header nav ul li a {
   display: inline-block;
 }
 
+/* Add styles for the hamburger menu */
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .menu-toggle {
+      display: block;
+  }
+
+  .main-nav {
+      display: none;
+      flex-direction: column;
+      background: #c6fbfb;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      padding: 10px 0;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .main-nav.active {
+      display: flex;
+  }
+
+  .main-nav ul {
+      width: 100%;
+  }
+
+  .main-nav ul li {
+      margin: 10px 0;
+      text-align: center;
+  }
+
+  .main-nav ul li a {
+      color: #333;
+      text-transform: uppercase;
+      font-size: 1.2rem;
+      padding: 10px;
+      display: block;
+      width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+    header.sticky-header {
+        padding: 5px 10px; /* Reduce padding */
+    }
+
+    .logo img {
+        height: 25px; /* Reduce logo size */
+    }
+
+    .main-nav ul {
+        padding: 0;
+    }
+}
 

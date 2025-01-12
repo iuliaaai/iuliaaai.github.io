@@ -28,6 +28,21 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 
+
+    const menuToggle = document.querySelector(".menu-toggle");
+    const mainNav = document.querySelector(".main-nav");
+
+    menuToggle.addEventListener("click", () => {
+        mainNav.classList.toggle("active");
+    });
+
+    // Close menu when a link is clicked
+    document.querySelectorAll(".main-nav a").forEach(link => {
+        link.addEventListener("click", () => {
+            mainNav.classList.remove("active");
+        });
+    });
+    
     // Toggle Details for Cards
     cards.forEach(card => {
         card.addEventListener("click", () => {
